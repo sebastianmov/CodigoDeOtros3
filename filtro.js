@@ -8,7 +8,7 @@ const productos = [
   {nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./zapato-rojo.jpg"}
 ]
 
-const li = document.getElementsById("lista-de-productos")[0]; // se coloca [0] para obtener el primer elemento de la coleccion y se cambia el metodo getElementByName por getElementById
+const li = document.getElementsByName("lista-de-productos")[0]; // se coloca [0] para obtener el primer elemento de la coleccion
 const $i = document.querySelector('.input');
 const botonDeFiltro = document.querySelector("button"); // se desplazo el evento onclick
 
